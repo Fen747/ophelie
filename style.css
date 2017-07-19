@@ -1,0 +1,44 @@
+p
+{
+    color:white;
+}
+h1
+{
+    color: white;
+}
+head
+{
+	color: white;
+}
+
+body
+{
+    background-image: url("nenuphar.jpg");
+}
+li
+{ 
+color: white; }
+
+body
+{
+	color: white;
+}
+h1
+{
+    border: 3px blue outset;
+}
+a 
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+p
+{
+    box-shadow: 6px 6px 6px black;
+}
+p
+{
+    text-shadow: 2px 2px 4px black;
+}

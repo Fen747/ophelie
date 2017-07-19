@@ -1,0 +1,88 @@
+#navigation li a {
+  display: block ;
+  background: url(herbe.jpg) left top no-repeat ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(herbe.jpg) left top no-repeat ;
+  text-decoration: underline ;
+}
+
+#navigation li {
+  display: inline-block;
+  width: 150px ;
+  background: #c00 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  margin-bottom: 1px ;
+  margin-right: 1px ;
+}
+
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none;
+  text-align: center ;
+}
+
+#navbar {
+	background-color: white;
+	margin:0;
+	padding:0 3rem;
+	box-shadow: 6px 6px 6px black;
+  border: 2px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+body {
+	margin:0;
+}
+
+p {
+	text-align: justify;
+}
+
+body,p {
+  margin: 10px 0 ;
+  padding: 0 ;
+  text-align: center ;
+  font: 0.9em "Trebuchet MS", helvetica, sans-serif ;
+	background: #dea ;
+}
+
+img {
+	border-image: 2px black solid;
+	border-radius: 10px;
+}
+
+footer {
+	background: white;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	padding: 1rem 0;
+}
+
+.no-bullet > li {
+	list-style-type: none;
+}
+
+ul.split > li {
+	display: inline-block;
+	width: 50%;
+}
+
+.bold {
+	font-weight: bold;
+}

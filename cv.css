@@ -1,0 +1,39 @@
+body
+{
+    background: url("foncv.jpg") no-repeat fixed;
+    background-size: cover;
+
+}
+
+
+h3
+{
+	border:4px black double;
+}
+
+#coordonnees,h2,h3
+{
+	text-align: center;
+}
+
+.no-bullet > li
+{
+	list-style-type: none;
+}
+
+.big {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.indent {
+	margin-left: 2rem;
+}
+h1, h2, h3
+{
+	color: maroon;
+}
+
+span {
+	color: navy;
+}
